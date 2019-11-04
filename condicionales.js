@@ -1,5 +1,5 @@
 //EJERCICIO 1 con modificación del Ej. 4
-/*let usuarioRegistrado = prompt(`¿Cuál es su usuario?`);
+let usuarioRegistrado = prompt(`¿Cuál es su usuario?`);
 let contraseñaUsuarioRegistrado = prompt(`¿Cuál es su contraseña?`)
 console.log(usuarioRegistrado);
 console.log(contraseñaUsuarioRegistrado);
@@ -61,7 +61,7 @@ else if(notaAlumne < 9 && notaAlumne >= 6) {
 }
 else {
     alert("El examen NO está APROBADO")
-}; */
+}; 
 
 //EJERCICIO 8
 let diaDeLaSemana = prompt("¿Qué día de la semana es hoy?");
