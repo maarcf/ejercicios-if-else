@@ -1,5 +1,5 @@
 //EJERCICIO 1 con modificación del Ej. 4
-let usuarioRegistrado = prompt(`¿Cuál es su usuario?`);
+/*let usuarioRegistrado = prompt(`¿Cuál es su usuario?`);
 let contraseñaUsuarioRegistrado = prompt(`¿Cuál es su contraseña?`)
 console.log(usuarioRegistrado);
 console.log(contraseñaUsuarioRegistrado);
@@ -61,7 +61,7 @@ else if(notaAlumne < 9 && notaAlumne >= 6) {
 }
 else {
     alert("El examen NO está APROBADO")
-}; 
+}; */
 
 //EJERCICIO 8
 let diaDeLaSemana = prompt("¿Qué día de la semana es hoy?");
@@ -80,9 +80,12 @@ else if(diaDeLaSemana === "jueves") {
 else if(diaDeLaSemana === "viernes") {
     alert("Su nombre proviene del planeta Venus. En latín, se lo llamaba 'dies Veneris'")
 }
-else if(diaDeLaSemana === "sabado") {
+else if(diaDeLaSemana === "sábado") {
     alert("Su nombre proviene del Shabat hebreo, el día de descanso del pueblo judío")
 }
+else if(diaDeLaSemana === "domingo") {
+    alert("Su nombre es cristiano y proviene de la palabra latina 'Dominica', que significa 'señoril', por ser 'el día del Señor'") 
+}
 else {
-    alert(((diaDeLaSemana === "domingo") && "Su nombre es cristiano y proviene de la palabra latina 'Dominica', que significa 'señoril', por ser 'el día del Señor'") || alert("No ha ingresado un día válido"))
+    alert("No ha ingresado un día válido")
 };
