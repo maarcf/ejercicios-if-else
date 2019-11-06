@@ -89,3 +89,64 @@ else if(diaDeLaSemana === "domingo") {
 else {
     alert("No ha ingresado un día válido")
 };
+
+//EJERCICIO 8 CON SWITCH
+switch (diaDeLaSemana) {
+    case "lunes":
+        alert("Su nombre proviene de la luna. En latín, se lo llamaba 'dies Lūnae'")
+        break;
+    case "martes":
+        alert("Su nombre proviene del planeta Marte. En latín, se lo llamaba 'dies Martis'")
+        break;
+    case "miercoles":
+        alert("Su nombre proviene del planeta Mercurio. En latín, se lo llamaba 'dies Mercuriī'")
+        break;
+    case "jueves":
+        alert("Su nombre proviene del planeta Mercurio. En latín, se lo llamaba 'dies Iovis'")
+        break;
+    case "viernes":
+        alert("Su nombre proviene del planeta Venus. En latín, se lo llamaba 'dies Veneris'")
+        break;
+    case "sábado":
+        alert("Su nombre proviene del Shabat hebreo, el día de descanso del pueblo judío")
+        break;
+    case "domingo":
+        alert("Su nombre es cristiano y proviene de la palabra latina 'Dominica', que significa 'señoril', por ser 'el día del Señor'")
+        break;
+    default:
+        alert("No ha ingresado un día válido")
+        break;
+}
+
+// EJERCICIO CON SWITCH
+let mesCon31Dias = "El mes tiene 31 días";
+let mesCon30Dias = "El mes tiene 30 días";
+
+let numeroDeMes = prompt("¿Qué número de mes es hoy?") 
+
+switch (Number(numeroDeMes)) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        alert(mesCon31Dias)
+        break;
+
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        alert(mesCon30Dias)
+        break;
+
+    case 2:
+        alert("El mes tiene 28 días")
+        break;
+
+    default:
+        alert("No es un número válido")
+        break;
+}
